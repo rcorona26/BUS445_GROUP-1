@@ -39,21 +39,21 @@ c_values = [0.1, 1, 10, 100]
 best_c = None
 best_val_f1 = 0
 
-print("\nTuning results (validation set): ")
-for C in c_values:
-    model = LogisticRegression(C=C, max_iter=2000, class_weight="balanced")
-    model.fit(X_train, y_train)
+# print("\nTuning results (validation set): ")
+# for C in c_values:
+#     model = LogisticRegression(C=C, max_iter=2000, class_weight="balanced")
+#     model.fit(X_train, y_train)
 
-    val_predictions = model.predict(X_val)
-    val_f1 = f1_score(y_val, val_predictions, average="macro")
-    val_accuracy = accuracy_score(y_val, val_predictions)
-    print(f"C= {C:<6} Accuracy = {val_accuracy:.3f} Macro F1 = {val_f1:.3f}")
+#     val_predictions = model.predict(X_val)
+#     val_f1 = f1_score(y_val, val_predictions, average="macro")
+#     val_accuracy = accuracy_score(y_val, val_predictions)
+#     print(f"C= {C:<6} Accuracy = {val_accuracy:.3f} Macro F1 = {val_f1:.3f}")
 
-    if val_f1 > best_val_f1:
-        best_C = C
-        best_val_f1 = val_f1
+#     if val_f1 > best_val_f1:
+#         best_C = C
+#         best_val_f1 = val_f1
 
-print("\nBest C:", best_C)
+# print("\nBest C:", best_C)
 
 # Train the final model with the best C and test it once
 final_model = LogisticRegression(C=best_C, max_iter=2000, class_weight="balanced")
