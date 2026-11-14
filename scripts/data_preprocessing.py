@@ -171,9 +171,9 @@ print("Testing matching features:", X_test_match.shape)
 
 
 # Combine matching TF-IDF features with cosine similarity
-X_train = hstack([X_train_match,train_similarity.reshape(-1, 1)]).tocsr()
-X_val = hstack([X_val_match,val_similarity.reshape(-1, 1)]).tocsr()
-X_test = hstack([X_test_match,test_similarity.reshape(-1, 1)]).tocsr()
+X_train = hstack([X_train_resumes, X_train_job_descriptions, X_train_match, train_similarity.reshape(-1, 1)]).tocsr()
+X_val = hstack([X_val_resumes, X_val_job_descriptions, X_val_match, val_similarity.reshape(-1, 1)]).tocsr()
+X_test = hstack([X_test_resumes, X_test_job_descriptions, X_test_match, test_similarity.reshape(-1, 1)]).tocsr()
 
 # Display the final feature matrix dimensions
 print("\nFinal training features:", X_train.shape)
