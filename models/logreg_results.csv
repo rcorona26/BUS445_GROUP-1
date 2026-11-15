@@ -1,0 +1,2 @@
+model,best_C,baseline_accuracy,test_accuracy,test_macro_f1
+Logistic Regression,1,0.472,0.65,0.649
