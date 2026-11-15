@@ -118,4 +118,4 @@ results.to_csv(project_folder / "models" / "logreg_results.csv", index=False)
 conf_matrix.to_csv(project_folder / "models" / "logreg_confusion_matrix.csv")
 # Save the trained model for the live demo
 joblib.dump(final_model, project_folder / "models" / "logreg_model.joblib")
-print("\nResults and model saved to the models folder!")
+print("\nResults and model saved to the models folder")
