@@ -6,6 +6,10 @@ from scipy.sparse import load_npz
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, f1_score, classification_report, confusion_matrix
 
+# Show full tables in the terminal
+pd.set_option("display.width", 200)
+pd.set_option("display.max_columns", None)
+
 # Locate the main project folder
 project_folder = Path(__file__).resolve().parent.parent
 
@@ -23,20 +27,20 @@ y_train = train_df["label"]
 y_val = val_df["label"]
 y_test = test_df["label"]
 
-# print("Training features:", X_train.shape)
-# print("Validation features:", X_val.shape)
-# print("Test features:", X_test.shape)
+print("Training features:", X_train.shape)
+print("Validation features:", X_val.shape)
+print("Test features:", X_test.shape)
 
 # Baseline: the percentage our logistic regression model has to beat
 most_common_label = y_train.value_counts().idxmax()
 baseline_accuracy = (y_test == most_common_label).mean()
 
-# print ("\nMost common label in training set:", most_common_label)
-# print ("Percentage to beat:", round(baseline_accuracy * 100, 1), "%\n")
+print ("\nMost common label in training set:", most_common_label)
+print ("Percentage to beat:", round(baseline_accuracy * 100, 1), "%\n")
 
 #Try different C values to find the best one
 c_values = [0.1, 1, 10, 100]
-best_c = None
+best_C = None
 best_val_f1 = 0
 
 print("\nTuning results (validation set): ")
@@ -67,3 +71,51 @@ print("\n===== FINAL TEST RESULTS =====")
 print("Test Accuracy:", round(test_accuracy,3))
 print("Test Macro F1:", round(test_macro_f1,3))
 print("Beats baseline?", test_accuracy > baseline_accuracy)
+
+# Precision, Recall, and F1 score for each label
+print("\nClassification report:")
+print(classification_report(y_test, test_predictions))
+
+# Confusion matrix (rows = actual, columns = predicted)
+labels = final_model.classes_
+conf_matrix = pd.DataFrame(
+    confusion_matrix(y_test, test_predictions, labels=labels),
+    index=["Actual " + l for l in labels],
+    columns=["Predicted " + l for l in labels],
+)
+print("Confusion matrix:")
+print(conf_matrix)
+
+# Load the TF-IDF vectorizer to get the word names
+tfidf = joblib.load(project_folder / "models" / "tfidf_vectorizer.joblib")
+words = list(tfidf.get_feature_names_out())
+
+# Label each column in the same order as the data
+feature_names = (
+    ["resume: " + word for word in words]
+    + ["job: " + word for word in words]
+    + ["match: " + word for word in words]
+    + ["cosine_similarity"]
+)
+# Check the names line up with the columns
+assert len(feature_names) == X_train.shape[1], "Feature names don't match columns"
+print ("\nTop 10 features for each label:")
+for i, label in enumerate(final_model.classes_):
+    top = np.argsort(final_model.coef_[i])[-10:][::-1]
+    print("\n" + label + ":")
+    print([feature_names[j] for j in top])
+
+# Save results for the team
+results = pd.DataFrame({
+    "model": ["Logistic Regression"],
+    "best_C": [best_C],
+    "baseline_accuracy" : [round(baseline_accuracy, 3)],
+    "test_accuracy": [round(test_accuracy, 3)],
+    "test_macro_f1": [round(test_macro_f1, 3)],
+})
+results.to_csv(project_folder / "models" / "logreg_results.csv", index=False)
+# Save the confusion matrix for Excel
+conf_matrix.to_csv(project_folder / "models" / "logreg_confusion_matrix.csv")
+# Save the trained model for the live demo
+joblib.dump(final_model, project_folder / "models" / "logreg_model.joblib")
+print("\nResults and model saved to the models folder")
