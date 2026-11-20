@@ -1,0 +1,121 @@
+Resume,Rank,title,company,Prediction,Good Fit %,No Fit %,Potential Fit %,Similarity,Match Score
+Data Analyst,1,Operations Coordinator,Broadway National Inc.,Good Fit,100.0,0.0,0.0,0.017,100.0
+Data Analyst,2,Manufacturing Technology and Industrial Data Delivery Manager,Deloitte,Good Fit,100.0,0.0,0.0,0.142,100.0
+Data Analyst,3,"Vice President, Product Strategy",UW Credit Union,Good Fit,100.0,0.0,0.0,0.038,100.0
+Data Analyst,4,Distinguished Staff Engineer,GE Aerospace,Good Fit,96.6,0.0,3.4,0.031,98.3
+Data Analyst,5,AI Applications Engineer,GE HealthCare,Good Fit,96.6,0.0,3.4,0.048,98.3
+Data Analyst,6,IT Systems Engineer,Kodak,Good Fit,96.6,0.0,3.4,0.063,98.3
+Data Analyst,7,"Program Management Analyst, Value Creation",Air Transport Services Group Inc.,No Fit,9.2,58.5,32.4,0.076,25.4
+Data Analyst,8,"Principal Product Manager, Customer Sales Optimization",The Hershey Company,No Fit,9.2,58.5,32.4,0.08,25.4
+Data Analyst,9,"Engineer/Sr Engineer, Operations Engineering",American Airlines,No Fit,9.2,58.5,32.4,0.224,25.4
+Data Analyst,10,"Senior Director, Global Transportation & Purchasing",Aeroflow Health,No Fit,9.2,58.5,32.4,0.069,25.4
+Data Analyst,11,Alternative Data Management - Analyst,iCapital,No Fit,9.2,58.5,32.4,0.09,25.4
+Data Analyst,12,Senior Data Engineer,New York Blood Center Inc.,No Fit,9.2,58.5,32.4,0.176,25.4
+Data Analyst,13,"Manager, Analytics",Accommodations Plus International,No Fit,13.3,66.7,20.0,0.216,23.3
+Data Analyst,14,IT Technician / AI Workflow Engineer / Cybersecurity Specialist,RLG,No Fit,20.0,80.0,0.0,0.04,20.0
+Data Analyst,15,New Business Developer,Sysco,No Fit,20.0,80.0,0.0,0.05,20.0
+Data Analyst,16,Jr. Web Marketing Specialist - Analytics Track,WebFX,No Fit,20.0,80.0,0.0,0.043,20.0
+Data Analyst,17,"Senior/Lead Decision Scientist, Data & Analytics",Starbucks,No Fit,20.0,80.0,0.0,0.045,20.0
+Data Analyst,18,"Manager, SEO/AEO/GEO (Digital Marketing)",Leviton Manufacturing,No Fit,20.0,80.0,0.0,0.058,20.0
+Data Analyst,19,"Director, Business Intelligence & AI",Life Care Services-US,No Fit,20.0,80.0,0.0,0.058,20.0
+Data Analyst,20,AI Engineer,Brooksource,No Fit,20.0,80.0,0.0,0.037,20.0
+Data Analyst,21,Restaurant Manager,California Pizza Kitchen,No Fit,20.0,80.0,0.0,0.012,20.0
+Data Analyst,22,Licensed Real Estate Agent,Coldwell Banker American Homes,No Fit,20.0,80.0,0.0,0.005,20.0
+Data Analyst,23,"Manager, Market Intelligence & Commercial Analytics",bp,No Fit,16.7,77.8,5.6,0.081,19.5
+Data Analyst,24,Senior Merchandising - Technical Analyst (965),ABC Supply Co. Inc.,No Fit,16.7,77.8,5.6,0.071,19.5
+Data Analyst,25,"Sr. Analyst, Retail Strategy & Analytics",CarMax,No Fit,16.7,77.8,5.6,0.112,19.5
+Data Analyst,26,Analyst - Pricing Analytics,Lowe's,No Fit,16.7,77.8,5.6,0.139,19.5
+Data Analyst,27,District Manager,Aldi,No Fit,0.0,93.3,6.7,0.038,3.4
+Data Analyst,28,Entry Level Sales Representative,Victory Home Remodeling,No Fit,0.0,93.3,6.7,0.004,3.4
+Data Analyst,29,"Military Service - U.S. Space Force, Cyber Security",U.S. Space Force,No Fit,0.0,93.3,6.7,0.023,3.4
+Data Analyst,30,Teller,Jovia Financial Credit Union,No Fit,0.0,100.0,0.0,0.014,0.0
+Data Analyst,31,Operations Specialist,All Star Management,No Fit,0.0,100.0,0.0,0.027,0.0
+Data Analyst,32,SAP Finance IT Lead,PIM Brands,No Fit,0.0,100.0,0.0,0.018,0.0
+Data Analyst,33,Principal Cyber Security Analyst,Navy Federal Credit Union,No Fit,0.0,100.0,0.0,0.045,0.0
+Data Analyst,34,Analyst - Resource Planning,United Airlines,No Fit,0.0,100.0,0.0,0.03,0.0
+Data Analyst,35,Visual Merchandiser,Mango,No Fit,0.0,100.0,0.0,0.03,0.0
+Data Analyst,36,"Sr. Analyst, Consumer Insights and Analytics",New Balance,No Fit,0.0,100.0,0.0,0.049,0.0
+Data Analyst,37,Market Manager - Queens,Capital One,No Fit,0.0,100.0,0.0,0.033,0.0
+Data Analyst,38,Head Teller,FourLeaf Federal Credit Union,No Fit,0.0,100.0,0.0,0.023,0.0
+Data Analyst,39,AI Security Specialist,PNC Financial Services Group,No Fit,0.0,100.0,0.0,0.033,0.0
+Data Analyst,40,Data Scientist - AI Trainer,DataAnnotation,No Fit,0.0,100.0,0.0,0.027,0.0
+Business Executive,1,Operations Coordinator,Broadway National Inc.,Good Fit,100.0,0.0,0.0,0.021,100.0
+Business Executive,2,Manufacturing Technology and Industrial Data Delivery Manager,Deloitte,Good Fit,100.0,0.0,0.0,0.051,100.0
+Business Executive,3,"Manager, Market Intelligence & Commercial Analytics",bp,Good Fit,100.0,0.0,0.0,0.145,100.0
+Business Executive,4,New Business Developer,Sysco,Good Fit,80.0,0.0,20.0,0.225,90.0
+Business Executive,5,"Sr. Analyst, Retail Strategy & Analytics",CarMax,Good Fit,80.0,0.0,20.0,0.09,90.0
+Business Executive,6,Principal Cyber Security Analyst,Navy Federal Credit Union,Potential Fit,0.0,4.8,95.2,0.072,47.6
+Business Executive,7,"Manager, SEO/AEO/GEO (Digital Marketing)",Leviton Manufacturing,No Fit,31.2,50.0,18.8,0.033,40.6
+Business Executive,8,"Military Service - U.S. Space Force, Cyber Security",U.S. Space Force,No Fit,31.2,50.0,18.8,0.029,40.6
+Business Executive,9,"Manager, Analytics",Accommodations Plus International,Potential Fit,5.0,45.0,50.0,0.085,30.0
+Business Executive,10,District Manager,Aldi,No Fit,9.2,58.5,32.4,0.082,25.4
+Business Executive,11,Entry Level Sales Representative,Victory Home Remodeling,No Fit,9.2,58.5,32.4,0.092,25.4
+Business Executive,12,Head Teller,FourLeaf Federal Credit Union,No Fit,9.2,58.5,32.4,0.077,25.4
+Business Executive,13,"Senior Director, Global Transportation & Purchasing",Aeroflow Health,No Fit,9.2,58.5,32.4,0.14,25.4
+Business Executive,14,"Program Management Analyst, Value Creation",Air Transport Services Group Inc.,No Fit,9.2,58.5,32.4,0.132,25.4
+Business Executive,15,"Principal Product Manager, Customer Sales Optimization",The Hershey Company,No Fit,9.2,58.5,32.4,0.133,25.4
+Business Executive,16,"Vice President, Product Strategy",UW Credit Union,No Fit,9.2,58.5,32.4,0.174,25.4
+Business Executive,17,"Sr. Analyst, Consumer Insights and Analytics",New Balance,No Fit,9.2,58.5,32.4,0.12,25.4
+Business Executive,18,"Director, Business Intelligence & AI",Life Care Services-US,No Fit,9.2,58.5,32.4,0.079,25.4
+Business Executive,19,IT Technician / AI Workflow Engineer / Cybersecurity Specialist,RLG,No Fit,1.7,54.1,44.2,0.04,23.8
+Business Executive,20,Jr. Web Marketing Specialist - Analytics Track,WebFX,No Fit,1.7,54.1,44.2,0.023,23.8
+Business Executive,21,Market Manager - Queens,Capital One,No Fit,1.7,54.1,44.2,0.064,23.8
+Business Executive,22,"Engineer/Sr Engineer, Operations Engineering",American Airlines,No Fit,1.7,54.1,44.2,0.045,23.8
+Business Executive,23,Teller,Jovia Financial Credit Union,No Fit,1.7,54.1,44.2,0.034,23.8
+Business Executive,24,Restaurant Manager,California Pizza Kitchen,No Fit,1.7,54.1,44.2,0.032,23.8
+Business Executive,25,Visual Merchandiser,Mango,No Fit,1.7,54.1,44.2,0.035,23.8
+Business Executive,26,Analyst - Pricing Analytics,Lowe's,No Fit,1.7,54.1,44.2,0.058,23.8
+Business Executive,27,Licensed Real Estate Agent,Coldwell Banker American Homes,No Fit,1.7,54.1,44.2,0.05,23.8
+Business Executive,28,"Senior/Lead Decision Scientist, Data & Analytics",Starbucks,No Fit,1.7,54.1,44.2,0.064,23.8
+Business Executive,29,Analyst - Resource Planning,United Airlines,No Fit,1.7,54.1,44.2,0.002,23.8
+Business Executive,30,AI Security Specialist,PNC Financial Services Group,No Fit,1.7,54.1,44.2,0.042,23.8
+Business Executive,31,Data Scientist - AI Trainer,DataAnnotation,No Fit,0.0,66.7,33.3,0.023,16.6
+Business Executive,32,AI Engineer,Brooksource,No Fit,4.0,79.5,16.5,0.011,12.2
+Business Executive,33,Alternative Data Management - Analyst,iCapital,No Fit,0.0,84.6,15.4,0.09,7.7
+Business Executive,34,IT Systems Engineer,Kodak,No Fit,0.0,100.0,0.0,0.043,0.0
+Business Executive,35,Distinguished Staff Engineer,GE Aerospace,No Fit,0.0,100.0,0.0,0.031,0.0
+Business Executive,36,SAP Finance IT Lead,PIM Brands,No Fit,0.0,100.0,0.0,0.024,0.0
+Business Executive,37,Senior Data Engineer,New York Blood Center Inc.,No Fit,0.0,100.0,0.0,0.043,0.0
+Business Executive,38,AI Applications Engineer,GE HealthCare,No Fit,0.0,100.0,0.0,0.014,0.0
+Business Executive,39,Senior Merchandising - Technical Analyst (965),ABC Supply Co. Inc.,No Fit,0.0,100.0,0.0,0.059,0.0
+Business Executive,40,Operations Specialist,All Star Management,No Fit,0.0,100.0,0.0,0.056,0.0
+Energy Engineer,1,"Manager, Market Intelligence & Commercial Analytics",bp,Good Fit,93.8,6.2,0.0,0.058,93.8
+Energy Engineer,2,IT Systems Engineer,Kodak,Good Fit,70.0,25.0,5.0,0.044,72.5
+Energy Engineer,3,Senior Data Engineer,New York Blood Center Inc.,Good Fit,70.0,25.0,5.0,0.021,72.5
+Energy Engineer,4,"Principal Product Manager, Customer Sales Optimization",The Hershey Company,Good Fit,70.0,25.0,5.0,0.012,72.5
+Energy Engineer,5,"Military Service - U.S. Space Force, Cyber Security",U.S. Space Force,No Fit,41.4,48.3,10.3,0.042,46.6
+Energy Engineer,6,Head Teller,FourLeaf Federal Credit Union,No Fit,41.4,48.3,10.3,0.01,46.6
+Energy Engineer,7,Restaurant Manager,California Pizza Kitchen,No Fit,41.4,48.3,10.3,0.01,46.6
+Energy Engineer,8,New Business Developer,Sysco,No Fit,41.4,48.3,10.3,0.021,46.6
+Energy Engineer,9,"Program Management Analyst, Value Creation",Air Transport Services Group Inc.,No Fit,9.2,58.5,32.4,0.084,25.4
+Energy Engineer,10,Analyst - Resource Planning,United Airlines,No Fit,13.3,66.7,20.0,0.07,23.3
+Energy Engineer,11,Distinguished Staff Engineer,GE Aerospace,No Fit,16.7,77.8,5.6,0.071,19.5
+Energy Engineer,12,AI Engineer,Brooksource,No Fit,16.7,83.3,0.0,0.016,16.7
+Energy Engineer,13,District Manager,Aldi,No Fit,16.7,83.3,0.0,0.012,16.7
+Energy Engineer,14,Analyst - Pricing Analytics,Lowe's,No Fit,16.7,83.3,0.0,0.022,16.7
+Energy Engineer,15,Market Manager - Queens,Capital One,No Fit,0.0,82.4,17.6,0.004,8.8
+Energy Engineer,16,"Senior Director, Global Transportation & Purchasing",Aeroflow Health,No Fit,0.0,100.0,0.0,0.009,0.0
+Energy Engineer,17,"Senior/Lead Decision Scientist, Data & Analytics",Starbucks,No Fit,0.0,100.0,0.0,0.015,0.0
+Energy Engineer,18,"Manager, SEO/AEO/GEO (Digital Marketing)",Leviton Manufacturing,No Fit,0.0,100.0,0.0,0.033,0.0
+Energy Engineer,19,Principal Cyber Security Analyst,Navy Federal Credit Union,No Fit,0.0,100.0,0.0,0.02,0.0
+Energy Engineer,20,SAP Finance IT Lead,PIM Brands,No Fit,0.0,100.0,0.0,0.008,0.0
+Energy Engineer,21,Senior Merchandising - Technical Analyst (965),ABC Supply Co. Inc.,No Fit,0.0,100.0,0.0,0.019,0.0
+Energy Engineer,22,"Vice President, Product Strategy",UW Credit Union,No Fit,0.0,100.0,0.0,0.013,0.0
+Energy Engineer,23,Jr. Web Marketing Specialist - Analytics Track,WebFX,No Fit,0.0,100.0,0.0,0.03,0.0
+Energy Engineer,24,"Engineer/Sr Engineer, Operations Engineering",American Airlines,No Fit,0.0,100.0,0.0,0.035,0.0
+Energy Engineer,25,Operations Coordinator,Broadway National Inc.,No Fit,0.0,100.0,0.0,0.014,0.0
+Energy Engineer,26,"Sr. Analyst, Retail Strategy & Analytics",CarMax,No Fit,0.0,100.0,0.0,0.028,0.0
+Energy Engineer,27,"Sr. Analyst, Consumer Insights and Analytics",New Balance,No Fit,0.0,100.0,0.0,0.03,0.0
+Energy Engineer,28,AI Security Specialist,PNC Financial Services Group,No Fit,0.0,100.0,0.0,0.01,0.0
+Energy Engineer,29,Entry Level Sales Representative,Victory Home Remodeling,No Fit,0.0,100.0,0.0,0.0,0.0
+Energy Engineer,30,IT Technician / AI Workflow Engineer / Cybersecurity Specialist,RLG,No Fit,0.0,100.0,0.0,0.028,0.0
+Energy Engineer,31,Data Scientist - AI Trainer,DataAnnotation,No Fit,0.0,100.0,0.0,0.008,0.0
+Energy Engineer,32,"Manager, Analytics",Accommodations Plus International,No Fit,0.0,100.0,0.0,0.011,0.0
+Energy Engineer,33,Operations Specialist,All Star Management,No Fit,0.0,100.0,0.0,0.018,0.0
+Energy Engineer,34,Alternative Data Management - Analyst,iCapital,No Fit,0.0,100.0,0.0,0.022,0.0
+Energy Engineer,35,Teller,Jovia Financial Credit Union,No Fit,0.0,100.0,0.0,0.002,0.0
+Energy Engineer,36,AI Applications Engineer,GE HealthCare,No Fit,0.0,100.0,0.0,0.025,0.0
+Energy Engineer,37,Manufacturing Technology and Industrial Data Delivery Manager,Deloitte,No Fit,0.0,100.0,0.0,0.026,0.0
+Energy Engineer,38,Licensed Real Estate Agent,Coldwell Banker American Homes,No Fit,0.0,100.0,0.0,0.001,0.0
+Energy Engineer,39,Visual Merchandiser,Mango,No Fit,0.0,100.0,0.0,0.004,0.0
+Energy Engineer,40,"Director, Business Intelligence & AI",Life Care Services-US,No Fit,0.0,100.0,0.0,0.038,0.0

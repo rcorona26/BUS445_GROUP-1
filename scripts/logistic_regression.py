@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 import joblib
+import matplotlib.pyplot as plt
+from sklearn.metrics import ConfusionMatrixDisplay
 from pathlib import Path
 from scipy.sparse import load_npz
 from sklearn.linear_model import LogisticRegression
@@ -119,3 +121,19 @@ conf_matrix.to_csv(project_folder / "models" / "logreg_confusion_matrix.csv")
 # Save the trained model for the live demo
 joblib.dump(final_model, project_folder / "models" / "logreg_model.joblib")
 print("\nResults and model saved to the models folder")
+
+# Save a confusion matrix picture (same style as the other models)
+
+ConfusionMatrixDisplay.from_predictions(
+    y_test,
+    test_predictions,
+    labels=["Good Fit", "No Fit", "Potential Fit"],
+    cmap="Blues",
+    values_format="d",
+)
+plt.title("Logistic Regression - Test Confusion Matrix")
+plt.tight_layout()
+plt.savefig(project_folder / "models" / "logreg_confusion_matrix.png", dpi=300, bbox_inches="tight")
+plt.close()
+
+print("Confusion matrix picture saved!")
